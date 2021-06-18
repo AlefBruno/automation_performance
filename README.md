@@ -5,5 +5,5 @@
     Abordagem padrão de testes de Performance:
         $mvn gatling:test -Dgatling.simulationClass=gatlingdemostore.simulations.PurchaseBasic
 
-    Proposta de Execucão baseada em Jornadas dos seus Clientes
+    Proposta baseada na Jornada dos Clientes:
         $mvn gatling:test -Dgatling.simulationClass=gatlingdemostore.simulations.PurchaseSimulations
