@@ -1,12 +1,9 @@
-gatling-maven-plugin-demo
+=========================
+   Demo Store Gatling 
 =========================
 
-Simple showcase of a maven project using the gatling-maven-plugin.
+    Abordagem padrão de testes de Performance:
+        $mvn gatling:test -Dgatling.simulationClass=gatlingdemostore.simulations.PurchaseBasic
 
-To test it out, simply execute the following command:
-
-    $mvn gatling:test -Dgatling.simulationClass=computerdatabase.BasicSimulation
-
-or simply:
-
-    $mvn gatling:test
+    Proposta de Execucão baseada em Jornadas dos seus Clientes
+        $mvn gatling:test -Dgatling.simulationClass=gatlingdemostore.simulations.PurchaseSimulations
